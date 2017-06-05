@@ -1,0 +1,910 @@
+@font-face {
+	font-family: Matchbook;
+	src: url(files/fonts/matchbook.ttf);
+}
+/*///////////////Mobiles/////////////////*/
+@media only screen and (max-width: 480px) {
+
+	/*///////////////All Pages/////////////////*/
+	#pageHeader {
+		text-align: center;
+		font-family: "Matchbook";
+		background-color: rgba(204, 229, 255, 0.3);
+		margin: 20px 0px 20px 0px;
+	}
+	#pageHeader h1 {
+		color: #404040;
+		font-size: 100px;
+		letter-spacing: 2px;
+		font-weight: 600;
+		text-decoration: none;
+	}
+	#pageHeader h2 {
+		margin-top: -20px;
+		letter-spacing: 3px;
+		color: #404040;
+		font-size: 45px;
+		text-shadow: -.5px 0 #cce5ff, 0 .5px #cce5ff, .5px 0 #cce5ff, 0 -.5px #cce5ff;
+	}
+	#navBar.navbar-default {
+		background-color: #99cbff;
+		border-color: #86c1ff;
+	}
+	#navBar.navbar-default .navbar-me {
+		color: #000000;
+		float: left;
+		height: 50px;
+		padding: 20px 25px 0px 15px;
+		font-family: "Matchbook";
+		font-weight: 700;
+		font-size: 38px;
+		line-height: 20px;
+	}
+	#navBar.navbar-default .navbar-me:hover, #navBar.navbar-default .navbar-me:focus {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	#navBar.navbar-default .navbar-text {
+		color: #000000;
+	}
+	#navBar.navbar-default .navbar-nav > li > a {
+		color: #000000; 
+		font-family: "Matchbook";
+		font-size: 28px;
+		letter-spacing: 2px;
+		padding-top: 18px;
+	}
+	#navBar.navbar-default .navbar-nav > li > a:hover, #navBar.navbar-default .navbar-nav > li > a:focus {
+		color: #cce5ff;
+	}
+	#navBar.navbar-default .navbar-nav > .open > a, #navBar.navbar-default .navbar-nav > .open > a:hover, #navBar.navbar-default .navbar-nav > .open > a:focus {
+		color: #ffffff;
+		background-color: #86c1ff;
+	}
+	#navBar.navbar-default .navbar-toggle {
+		border-color: #86c1ff;
+	}
+	#navBar.navbar-default .navbar-toggle:hover, #navBar.navbar-default .navbar-toggle:focus {
+		background-color: #86c1ff;
+	}
+	#navBar.navbar-default .navbar-toggle .icon-bar {
+		background-color: #ffffff;
+	}
+	#navBar.navbar-default .navbar-collapse,
+	#navBar.navbar-default .navbar-form {
+		border-color: #86c1ff;
+		text-align: center;
+	}
+	#navBar.navbar-default .navbar-me {
+		color: #000;
+	}
+	#navBar.navbar-default .navbar-me:hover {
+		color: #cce5ff;
+	}
+	#navBar.navbar-default .mail {
+		height: 17px;
+		opacity: 0.7;
+	}
+	#navBar.navbar-default .phone {
+		margin-bottom: 4px;
+		height: 22px;
+	}
+	#navBar.navbar-default .linked {
+		height: 20px;
+		opacity: 0.8;
+		margin-bottom: 15px;
+	}
+	#navBar.navbar-default .tool + .tooltip > .tooltip-inner{
+		background-color: rgba(204, 229, 255, 1);
+		width: 100px;
+		color: black;
+		font-weight: 700;
+		font-family: matchbook;
+		font-size: 15px;
+		margin-top: 8px;
+	}
+	#navBar.navbar-default .tool + .tooltip > .tooltip-arrow{
+		margin-top: 8px;
+	}
+	#navBar.navbar-default .tool3 + .tooltip > .tooltip-inner{
+		background-color: rgba(204, 229, 255, 1);
+		width: 70px;
+		color: black;
+		letter-spacing: 1px;
+		font-weight: 700;
+		font-family: matchbook;
+		font-size: 15px;
+		margin-top: -7px;
+	}
+	#navBar.navbar-default .tool3 + .tooltip > .tooltip-arrow{
+		margin-top: -7px;
+	}
+	#navBar.navbar-default .tool2 + .tooltip > .tooltip-inner{
+		background-color: rgba(204, 229, 255, 1);
+		width: 140px;
+		color: black;
+		letter-spacing: 1px;
+		font-weight: 700;
+		font-family: matchbook;
+		font-size: 20px;
+		padding-top: 10px;
+		margin-top: 2px;
+	}
+	#navBar.navbar-default .tool2 + .tooltip > .tooltip-arrow{
+		margin-top: 2px;
+	}
+	#main .image1 {
+		margin: 3% 0 3% 0;
+		width: 100%;
+	}
+
+	/*///////////////Home Page/////////////////*/
+	#main h4 {
+		margin-top: 30px;
+		text-align: left;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+	}
+	#main p {
+		text-align: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+	}
+	#imge {
+		display: block;
+		text-align: center;
+	}
+	#main .albion1 {
+		width: 60%;
+	}
+
+	/*///////////////About Page/////////////////*/
+	#albion .bio {
+		color: #86c1ff;
+		text-decoration: none;
+	}
+	#travelling h4 {
+		margin-top: 30px;
+		text-align: left;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+	}
+	#travelling p {
+		text-align: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+	}
+	#cols .BB {
+		width: 100%;
+		margin-bottom: 20%;
+	}
+	#cols2 .LA {
+		width: 100%;
+		margin-bottom: 20%;
+	}
+	#cols2 .SanFrancisco {
+		width: 100%;
+	}
+	#cols .GGP {
+		width: 100%;
+	}
+
+	/*///////////////CV Page/////////////////*/
+	#leftCol p {
+		padding-right: 10px;
+	}
+	#leftCol h5 {
+		margin-top: 5px;
+		text-align: left;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+	}
+	#list1 {
+		display: block;
+		margin-left: -5px;
+	}
+	#list1 li {
+		background-color:;
+		text-align: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		list-style-type: square;
+		line-height: 220%;
+	}
+	#cv h4 {
+		margin-top: 30px;
+		text-align: left;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+	}
+	#cv p {
+		text-align: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+	}
+	#list2 {
+		display: block;
+		margin-left: -5px;
+	}
+	#list2 li {
+		background-color:;
+		text-align: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		list-style-type: square;
+		line-height: 220%;
+	}
+	#rightCol h5 {
+		margin-top: 5px;
+		text-align: left;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+	}
+	#rightCol h6 {
+		margin-top: 5px;
+		text-align: left;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 13px;
+		font-style: italic;
+	}
+	.present {
+		font-size: 11px;
+	}
+	.indentation {
+		margin-left: 30px;
+	}
+	#listR li {
+		background-color:;
+		text-align: left;
+		font-size: 12px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		list-style-type: square;
+		line-height: 220%;
+	}
+	#listR2 li {
+		background-color:;
+		text-align: left;
+		font-size: 12px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		list-style-type: square;
+		line-height: 220%;
+	}
+	#listR3 li {
+		background-color:;
+		text-align: left;
+		font-size: 12px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		list-style-type: square;
+		line-height: 220%;
+	}
+	
+	/*///////////////Portfolio Page/////////////////*/
+	
+	#portfol h4 {
+		margin-top: 30px;
+		text-align: left;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+	}
+	#portfol p {
+		text-align: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+	}
+	#portfol .hungry {
+		width: 50%;
+		display: block;
+		margin: 10% auto;
+	}
+	#pHungry h4 {
+		margin-top: 30px;
+		text-align: left;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+	}
+	#pHungry p {
+		text-align: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+	}
+	#pHungry .hungry {
+		width: 40%;
+		display: block;
+		margin: 8% auto;
+		border-radius: 4px;
+	}
+	
+	#pBall h4 {
+		margin-top: 30px;
+		text-align: left;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+	}
+	#pBall p {
+		text-align: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+	}
+	#pBall .ball {
+		width: 40%;
+		display: block;
+		margin: 8% auto;
+		border-radius: 4px;
+	}
+	#ballShoot {
+		padding-top: 3%;
+	}
+	#ballShoot h3 {
+		display: none;
+	}
+	#ballShoot h4 {
+		display: none;
+	}
+	.ballShooter {
+		display: none;
+	}
+	#ballShoot span { display: block;
+		text-align: center;
+	}
+	/*///////////////Report Page/////////////////*/
+	#titleRep h3 {
+		margin-top: 30px;
+		text-align: center;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 700;
+	}
+	#titleRep h4 {
+		text-align: center;
+		font-family: "Matchbook";
+		font-size: 30px;
+		font-style: normal;
+		font-weight: 500;
+		text-decoration: underline;
+	}
+	#report img {
+		width: 100%;
+	}
+	#report2 img {
+		width: 100%;
+	}
+	#report3 img {
+		width: 100%;
+	}
+}
+@media(min-width:480px){
+	/*///////////////All Pages/////////////////*/
+	#pageHeader {
+		text-align: center;
+		font-family: "Matchbook";
+		background-color: rgba(204, 229, 255, 0.3);
+		margin: 20px 0px 20px 0px;
+	}
+	#pageHeader h1 {
+		color: #404040;
+		font-size: 100px;
+		letter-spacing: 2px;
+		font-weight: 600;
+	}
+	#pageHeader h2 {
+		margin-top: -20px;
+		letter-spacing: 3px;
+		color: #404040;
+		font-size: 45px;
+		text-shadow: -.5px 0 #cce5ff, 0 .5px #cce5ff, .5px 0 #cce5ff, 0 -.5px #cce5ff;
+	}
+	#navBar.navbar-default {
+		background-color: #99cbff;
+		border-color: #86c1ff;
+	}
+	#navBar.navbar-default .navbar-me {
+		color: #000000;
+		float: left;
+		height: 50px;
+		padding: 20px 25px 0px 15px;
+		font-family: "Matchbook";
+		font-weight: 700;
+		font-size: 38px;
+		line-height: 20px;
+	}
+	#navBar.navbar-default .navbar-me:hover, #navBar.navbar-default .navbar-me:focus {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	#navBar.navbar-default .navbar-text {
+		color: #000000;
+	}
+	#navBar.navbar-default .navbar-nav > li > a {
+		color: #000000; 
+		font-family: "Matchbook";
+		font-size: 28px;
+		letter-spacing: 2px;
+		padding-top: 18px;
+		padding-bottom: 0px;
+	}
+	#navBar.navbar-default .navbar-nav > li > a:hover, #navBar.navbar-default .navbar-nav > li > a:focus {
+		color: #cce5ff;
+	}
+	#navBar.navbar-default .navbar-nav > .open > a, #navBar.navbar-default .navbar-nav > .open > a:hover, #navBar.navbar-default .navbar-nav > .open > a:focus {
+		color: #ffffff;
+		background-color: #86c1ff;
+	}
+	#navBar.navbar-default .navbar-toggle {
+		border-color: #86c1ff;
+	}
+	#navBar.navbar-default .navbar-toggle:hover, #navBar.navbar-default .navbar-toggle:focus {
+		background-color: #86c1ff;
+	}
+	#navBar.navbar-default .navbar-toggle .icon-bar {
+		background-color: #ffffff;
+	}
+	#navBar.navbar-default .navbar-collapse,
+	#navBar.navbar-default .navbar-form {
+		border-color: #86c1ff;
+		text-align: center;
+	}
+	#navBar.navbar-default .navbar-me {
+		color: #000;
+	}
+	#navBar.navbar-default .navbar-me:hover {
+		color: #cce5ff;
+	}
+	#navBar.navbar-default .mail {
+		height: 17px;
+		opacity: 0.7;
+	}
+	#navBar.navbar-default .phone {
+		margin-bottom: 4px;
+		height: 22px;
+	}
+	#navBar.navbar-default .linked {
+		height: 20px;
+		opacity: 0.8;
+		margin-bottom: 15px;
+	}
+	#navBar.navbar-default .tool + .tooltip > .tooltip-inner{
+		background-color: rgba(204, 229, 255, 1);
+		width: 150px;
+		color: black;
+		letter-spacing: 1px;
+		font-weight: 700;
+		font-family: matchbook;
+		font-size: 18px;
+		padding-top: 7px;
+		margin-top: 8px;
+	}
+	#navBar.navbar-default .tool + .tooltip > .tooltip-arrow{
+		margin-top: 8px;
+	}
+	#navBar.navbar-default .tool3 + .tooltip > .tooltip-inner{
+		background-color: rgba(204, 229, 255, 1);
+		width: 70px;
+		color: black;
+		letter-spacing: 1px;
+		font-weight: 700;
+		font-family: matchbook;
+		font-size: 15px;
+		margin-top: -7px;
+	}
+	#navBar.navbar-default .tool3 + .tooltip > .tooltip-arrow{
+		margin-top: -7px;
+	}
+	#navBar.navbar-default .tool2 + .tooltip > .tooltip-inner{
+		background-color: rgba(204, 229, 255, 1);
+		width: 120px;
+		color: black;
+		letter-spacing: 1px;
+		font-weight: 700;
+		font-family: matchbook;
+		font-size: 18px;
+		padding-top: 7px;
+		margin-top: 2px;
+	}
+	#navBar.navbar-default .tool2 + .tooltip > .tooltip-arrow{
+		margin-top: 2px;
+	}
+	/*///////////////Home Page/////////////////*/
+	#main {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	#main h4 {
+		margin-top: 30px;
+		text-align: left;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+		margin-left: -15px;
+	}
+	#main p {
+		float: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		margin-bottom: 60px;
+		display: block;
+		margin-left: -5px;
+	}
+	#main .image1 {
+		width: 80%;
+		margin-left: 15%;
+		border-radius: 3px;
+	}
+	.vertcent {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+	
+	#imge {
+		display: block;
+		text-align: center;
+		margin-top: 170px;
+	}
+	/*///////////////About Page/////////////////*/
+	.bio a:link, a:visited {
+		color: #86c1ff;
+		text-decoration: none;
+	}
+	.bio a:hover, a:active {
+		color: black;
+		text-decoration: none;
+	}
+	#main .albion1 {
+		width: 60%;
+	}
+	#cols .BB {
+		margin-left: 10%;
+		margin-bottom: 20%;
+	}
+	#cols2 .LA {
+		margin-left: 10%;
+		margin-bottom: 20%;
+	}
+	#cols2 .SanFrancisco {
+		margin-left: 10%;
+		margin-bottom: 20%;
+	}
+	#cols .GGP {
+		margin-left: 10%;
+		margin-bottom: 20%;
+	}
+	#cols {
+		padding-top: 40px;
+	}
+	#cols2 {
+		padding-top: 40px;
+	}
+	#whiteSpace p {
+		text-align: center;
+		margin: 10px 30px 0px 70px;
+	}
+	#whiteSpace h5 {
+		text-align: center;
+		margin: 10px 30px -5px 70px;
+		border-radius: 10px;
+	}
+	#travelling {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	#travelling h4 {
+		text-align: left;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+		margin-left: -15px;
+	}
+	#travelling p {
+		float: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		margin-bottom: 60px;
+		display: block;
+	}
+	/*///////////////CV Page/////////////////*/
+	#cv {
+		margin-left: 40px;
+	}
+	#cv h4 {
+		margin-top: 30px;
+		text-align: left;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+		margin-left: -15px;
+	}
+	#cv p {
+		float: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		margin-bottom: 60px;
+		margin-right: 60px;
+	}
+	#leftCol p {
+		padding-right: 10px;
+		padding-bottom: 0px;
+	}
+	#leftCol h5 {
+		margin-top: 5px;
+		text-align: left;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		text-indent: 0px;
+	}
+	#list1 {
+		display: block;
+		margin-left: -5px;
+	}
+	#list1 li {
+		background-color:;
+		text-align: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		list-style-type: square;
+		line-height: 220%;
+	}
+	#list2 {
+		display: block;
+		margin-left: -5px;
+	}
+	#list2 li {
+		background-color:;
+		text-align: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		list-style-type: square;
+		line-height: 220%;
+	}
+	.present {
+		font-size: 11px;
+	}
+	.indentation {
+		margin-left: 30px;
+	}
+	#rightCol h5 {
+		margin-top: 5px;
+		text-align: left;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		text-indent: 0px;
+	}
+	#rightCol h6 {
+		margin-top: 5px;
+		text-align: left;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 13px;
+		font-style: italic;
+		text-indent: 0px;
+	}
+	#listR li {
+		background-color:;
+		text-align: left;
+		font-size: 12px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		list-style-type: square;
+		line-height: 220%;
+	}
+	#listR2 li {
+		background-color:;
+		text-align: left;
+		font-size: 12px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		list-style-type: square;
+		line-height: 220%;
+	}
+	#listR3 li {
+		background-color:;
+		text-align: left;
+		font-size: 12px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		list-style-type: square;
+		line-height: 220%;
+	}
+	/*///////////////Portfolio Page/////////////////*/
+	#pHungry {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	#pHungry h4 {
+		margin-top: 30px;
+		text-align: left;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+		margin-left: -15px;
+	}
+	#pHungry p {
+		float: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		margin-bottom: 60px;
+		display: block;
+		margin-left: -5px;
+	}
+	#pHungry .hungry {
+		width: 40%;
+		display: block;
+		margin: 8% auto;
+		border-radius: 4px;
+	}
+	#pBall {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	#pBall h4 {
+		text-align: left;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+		margin-left: -15px;
+	}
+	#pBall p {
+		float: left;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: #404040;
+		margin-bottom: 60px;
+		display: block;
+		margin-left: -5px;
+	}
+	#pBall .ball {
+		width: 40%;
+		display: block;
+		margin: 8% auto;
+		border-radius: 4px;
+	}
+	#ballShoot h3 {
+		margin-top: 30px;
+		text-align: center;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 500;
+	}
+	/*///////////////BallShoot Page/////////////////*/
+	#ballShoot h4 {
+		text-align: center;
+		font-family: "Matchbook";
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 600;
+	}
+	.ballShooter {
+		display: block;
+		margin: 0 auto;
+	}
+	#footer {
+		height: 10%;
+	}
+	/*///////////////Report Page/////////////////*/
+	#titleRep h3 {
+		margin-top: 30px;
+		text-align: center;
+		font-family: "Matchbook";
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 700;
+	}
+	#titleRep h4 {
+		text-align: center;
+		font-family: "Matchbook";
+		font-size: 30px;
+		font-style: normal;
+		font-weight: 500;
+		text-decoration: underline;
+	}
+	#report img {
+		width: 100%;
+	}
+	#report2 img {
+		width: 100%;
+	}
+	#report3 img {
+		width: 100%;
+	}
+}
